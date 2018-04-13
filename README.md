@@ -137,7 +137,7 @@ The last thing to do is to configure the bucket to execute the lambda function i
         </Condition>
         <Redirect>
             <Protocol>https</Protocol>
-            <HostName><resize_stuff>.execute-api.eu-central-1.amazonaws.com</HostName>
+            <HostName><random_stuff>.execute-api.eu-central-1.amazonaws.com</HostName>
             <ReplaceKeyPrefixWith>prod/resize?key=</ReplaceKeyPrefixWith>
             <HttpRedirectCode>307</HttpRedirectCode>
         </Redirect>
